@@ -23,10 +23,10 @@ public class BiberTeller {
   public static void main(String[] args) {
     teller = new Stack<>();
     biber = new Queue<>();
-    teller.push(new Teller(0));
+    // teller.push(new Teller(0));
+    // biber.enqueue(new Biber(1));
+    teller.push(new Teller(1));
     biber.enqueue(new Biber(1));
-    // teller.push(new Teller(1));
-    // biber.enqueue(1);
     System.out.println(istPassend());
   }
 }
